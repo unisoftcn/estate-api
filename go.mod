@@ -1,4 +1,4 @@
-module vuuvv.cn/unisoftcn/estate-api
+module vuuvv.cn/youku/estate-api
 
 go 1.18
 

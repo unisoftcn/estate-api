@@ -1,6 +1,6 @@
 package dto
 
-import "vuuvv.cn/unisoftcn/estate-api/entity"
+import "vuuvv.cn/youku/estate-api/entity"
 
 type Building struct {
 	entity.Building
