@@ -3,11 +3,11 @@ package entity
 import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/vuuvv/errors"
-	"github.com/vuuvv/orca/config"
-	"github.com/vuuvv/orca/id"
-	"github.com/vuuvv/orca/orm"
 	"gorm.io/gorm"
 	"testing"
+	"vuuvv.cn/unisoftcn/orca/config"
+	"vuuvv.cn/unisoftcn/orca/id"
+	"vuuvv.cn/unisoftcn/orca/orm"
 )
 
 func getDb(t *testing.T) *gorm.DB {

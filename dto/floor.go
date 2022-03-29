@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/unisoftcn/estate-api/entity"
+import "vuuvv.cn/unisoftcn/estate-api/entity"
 
 type Floor struct {
 	entity.Floor

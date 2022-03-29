@@ -1,7 +1,7 @@
 package entity
 
 import (
-	"github.com/vuuvv/orca/orm"
+	"vuuvv.cn/unisoftcn/orca/orm"
 )
 
 type Floor struct {

@@ -1,7 +1,7 @@
 package forms
 
 import (
-	"github.com/vuuvv/orca/orm"
+	"vuuvv.cn/unisoftcn/orca/orm"
 )
 
 type EstateData struct {

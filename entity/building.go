@@ -1,14 +1,14 @@
 package entity
 
 import (
-	"github.com/unisoftcn/user-api/entity"
-	"github.com/vuuvv/orca/orm"
+	"vuuvv.cn/unisoftcn/orca/orm"
+	"vuuvv.cn/unisoftcn/user-api/entity"
 )
 
 type Building struct {
 	orm.Id
-	EstateId int64 `json:"estateId" gorm:"comment:所属园区"`
-	OrgPath string `json:"orgPath" gorm:"comment:所属机构路径"`
+	EstateId int64  `json:"estateId" gorm:"comment:所属园区"`
+	OrgPath  string `json:"orgPath" gorm:"comment:所属机构路径"`
 	Name     string `json:"name" gorm:"comment:楼栋名称"`
 	orm.Entity
 

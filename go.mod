@@ -1,13 +1,15 @@
-module github.com/unisoftcn/estate-api
+module vuuvv.cn/unisoftcn/estate-api
 
 go 1.18
 
-replace github.com/vuuvv/orca => E:\repo\go\orca
+//replace vuuvv.cn/unisoftcn/orca => E:\repo\go\orca
 
 require (
-	github.com/unisoftcn/user-api v0.0.2
-	github.com/vuuvv/orca v0.0.16
+	github.com/json-iterator/go v1.1.12
+	github.com/vuuvv/errors v0.9.5
 	gorm.io/gorm v1.23.2
+	vuuvv.cn/unisoftcn/orca v0.0.20
+	vuuvv.cn/unisoftcn/user-api v0.0.4
 )
 
 require (
@@ -40,7 +42,6 @@ require (
 	github.com/jinzhu/copier v0.3.5 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.4 // indirect
-	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
@@ -53,7 +54,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
 	github.com/ugorji/go/codec v1.2.5 // indirect
-	github.com/vuuvv/errors v0.9.5 // indirect
+	github.com/vuuvv/govalidator v0.12.0 // indirect
 	github.com/vuuvv/mapstructure v1.4.6 // indirect
 	github.com/vuuvv/snowflake v0.0.3 // indirect
 	github.com/vuuvv/viper v1.10.5 // indirect
@@ -74,7 +75,6 @@ require (
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	gorm.io/datatypes v1.0.6 // indirect
 	gorm.io/driver/mysql v1.3.2 // indirect
 	gorm.io/driver/postgres v1.3.1 // indirect
 	gorm.io/plugin/soft_delete v1.1.0 // indirect
